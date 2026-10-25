@@ -1,0 +1,81 @@
+{
+  "timings": {
+    "prepare_s": 255.9,
+    "leakage_check_s": 263.6,
+    "features_s": 791.7,
+    "train_eval_s": 2142.9
+  },
+  "records": {
+    "fixed": {
+      "features": 30,
+      "best_iteration": 619,
+      "val_fit_s": 24.9,
+      "final_fit_s": 24.4
+    },
+    "human": {
+      "features": 94,
+      "best_iteration": 1839,
+      "val_fit_s": 80.4,
+      "final_fit_s": 97.0
+    },
+    "brute_all": {
+      "features": 415,
+      "best_iteration": 2126,
+      "val_fit_s": 202.2,
+      "final_fit_s": 245.3
+    },
+    "brute_top8": {
+      "features": 38,
+      "best_iteration": 838,
+      "val_fit_s": 33.6,
+      "final_fit_s": 35.5
+    },
+    "brute_top16": {
+      "features": 46,
+      "best_iteration": 960,
+      "val_fit_s": 37.7,
+      "final_fit_s": 41.0
+    },
+    "brute_top32": {
+      "features": 62,
+      "best_iteration": 1383,
+      "val_fit_s": 53.8,
+      "final_fit_s": 61.6
+    },
+    "random16": {
+      "features": 46,
+      "best_iteration": 1134,
+      "val_fit_s": 42.7,
+      "final_fit_s": 47.7
+    },
+    "grammar8": {
+      "features": 38,
+      "best_iteration": 991,
+      "val_fit_s": 41.2,
+      "final_fit_s": 41.7
+    },
+    "grammar16": {
+      "features": 46,
+      "best_iteration": 1138,
+      "val_fit_s": 47.1,
+      "final_fit_s": 49.5
+    },
+    "grammar32": {
+      "features": 62,
+      "best_iteration": 1484,
+      "val_fit_s": 62.4,
+      "final_fit_s": 68.9
+    },
+    "human+grammar16": {
+      "features": 110,
+      "best_iteration": 2065,
+      "val_fit_s": 97.9,
+      "final_fit_s": 113.4
+    }
+  },
+  "task_type": "GPU",
+  "polars": "1.38.1",
+  "catboost": "1.2.10",
+  "torch": "2.11.0+cu128",
+  "gpu": "GPU 0: Tesla T4 (UUID: GPU-de51b1f7-c5d3-ceff-bb1b-cc475d099444)\nGPU 1: Tesla T4 (UUID: GPU-b12614d5-1c1a-9dd8-61e1-ba6db4a0a717)"
+}

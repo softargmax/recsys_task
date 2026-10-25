@@ -1,0 +1,44 @@
+{
+  "timings": {
+    "prepare_s": 101.6,
+    "leakage_check_s": 204.2,
+    "features_s": 503.9,
+    "train_eval_s": 1683.8
+  },
+  "records": {
+    "L0": {
+      "features": 88,
+      "best_iteration": 1502,
+      "val_fit_s": 64.1,
+      "final_fit_s": 75.0
+    },
+    "L0+cf": {
+      "features": 94,
+      "best_iteration": 1711,
+      "val_fit_s": 76.7,
+      "final_fit_s": 90.1
+    },
+    "L1": {
+      "features": 116,
+      "best_iteration": 2211,
+      "val_fit_s": 102.6,
+      "final_fit_s": 124.2
+    },
+    "L1-wide": {
+      "features": 138,
+      "best_iteration": 1780,
+      "val_fit_s": 94.9,
+      "final_fit_s": 112.2
+    },
+    "L0+L1": {
+      "features": 171,
+      "best_iteration": 2303,
+      "val_fit_s": 127.7,
+      "final_fit_s": 153.9
+    }
+  },
+  "task_type": "GPU",
+  "polars": "1.38.1",
+  "catboost": "1.2.10",
+  "gpu": "GPU 0: Tesla T4 (UUID: GPU-f8ce56b4-b5ce-516c-10d7-5acbdd13cf3a)\nGPU 1: Tesla T4 (UUID: GPU-c6cc217a-d53c-16ac-5acc-7593f1109658)"
+}

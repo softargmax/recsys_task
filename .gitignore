@@ -1,0 +1,15 @@
+data/
+papers/
+release/
+catboost_info/
+**/catboost_info/
+__pycache__/
+*.pyc
+*.cbm
+*.zip
+outputs/local_test_*/
+outputs/*/code/
+outputs/*/*.log
+outputs/*/outputs/test_predictions.parquet
+outputs/*/outputs/models/
+kaggle/dataset/*.parquet

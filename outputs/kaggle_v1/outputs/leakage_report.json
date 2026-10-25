@@ -1,0 +1,26 @@
+{
+  "cut_ts": 25136000,
+  "objects_compared": 12640,
+  "features_with_mismatch": {},
+  "canary_mismatches": {
+    "canary_next_ratio": 214,
+    "canary_gap_to_prev": 0
+  },
+  "passed": true,
+  "single_feature_auc_top10": {
+    "c_prev10_lp_rate": 0.8685593127703654,
+    "u_rec_lp_rate_1h": 0.8633886727812793,
+    "u_rec_lp_rate_1d": 0.8526890379525511,
+    "c_session_lp_rate": 0.8515336594079009,
+    "c_prev3_lp_rate": 0.8496247457752668,
+    "u_rec_lp_rate_7d": 0.8378835174062371,
+    "u_rec_lp_rate_30d": 0.8284833413388497,
+    "c_prev1_ratio": 0.8246778318417509,
+    "u_rec_lp_rate_all": 0.8064493231724125,
+    "u_new_artist_lp_rate_30d": 0.7968029448583395
+  },
+  "canary_auc": {
+    "canary_next_ratio": 0.8239687094390983,
+    "canary_gap_to_prev": 0.8107676475626796
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "timings": {
+    "train_eval_s": 4427.7
+  },
+  "feature_code_hash": "ca56e4c2aa41e927",
+  "cached_features": "/kaggle/input/notebooks/rabochi1024/yambda-features/features",
+  "records": {
+    "human_s42": {
+      "features": 94,
+      "best_iteration": 1767,
+      "val_fit_s": 75.3,
+      "final_fit_s": 91.4
+    },
+    "g32_dense_s42": {
+      "features": 62,
+      "best_iteration": 1627,
+      "val_fit_s": 62.7,
+      "final_fit_s": 73.1
+    },
+    "g32_t0.001_s42": {
+      "features": 62,
+      "best_iteration": 1360,
+      "val_fit_s": 54.5,
+      "final_fit_s": 61.2
+    },
+    "g32_t0.01_s42": {
+      "features": 62,
+      "best_iteration": 1728,
+      "val_fit_s": 64.7,
+      "final_fit_s": 76.8
+    },
+    "g32_t0.05_s42": {
+      "features": 62,
+      "best_iteration": 1804,
+      "val_fit_s": 67.3,
+      "final_fit_s": 79.8
+    },
+    "g32_readable_s42": {
+      "features": 62,
+      "best_iteration": 1415,
+      "val_fit_s": 54.9,
+      "final_fit_s": 63.5
+    },
+    "human_s7": {
+      "features": 94,
+      "best_iteration": 1689,
+      "val_fit_s": 73.9,
+      "final_fit_s": 88.4
+    },
+    "g32_dense_s7": {
+      "features": 62,
+      "best_iteration": 1731,
+      "val_fit_s": 66.0,
+      "final_fit_s": 77.8
+    },
+    "g32_t0.001_s7": {
+      "features": 62,
+      "best_iteration": 2124,
+      "val_fit_s": 77.3,
+      "final_fit_s": 93.8
+    },
+    "g32_t0.01_s7": {
+      "features": 62,
+      "best_iteration": 1800,
+      "val_fit_s": 67.4,
+      "final_fit_s": 79.9
+    },
+    "g32_t0.05_s7": {
+      "features": 62,
+      "best_iteration": 1751,
+      "val_fit_s": 65.6,
+      "final_fit_s": 78.2
+    },
+    "g32_readable_s7": {
+      "features": 62,
+      "best_iteration": 1539,
+      "val_fit_s": 59.4,
+      "final_fit_s": 69.0
+    }
+  },
+  "task_type": "GPU",
+  "polars": "1.38.1",
+  "catboost": "1.2.10",
+  "torch": "2.11.0+cu128",
+  "gpu": "GPU 0: Tesla T4 (UUID: GPU-bd0ddb97-f67f-aab7-52f0-fe517dafcc38)\nGPU 1: Tesla T4 (UUID: GPU-c6acb7b8-cfe0-985e-c795-ce2337112450)"
+}

@@ -1,0 +1,104 @@
+{
+  "timings": {
+    "train_eval_s": 4942.3
+  },
+  "feature_code_hash": "ca56e4c2aa41e927",
+  "cached_features": "/kaggle/input/yambda-features/features",
+  "records": {
+    "human_s42": {
+      "features": 94,
+      "best_iteration": 1725,
+      "val_fit_s": 77.4,
+      "final_fit_s": 90.8
+    },
+    "grammar32_s42": {
+      "features": 62,
+      "best_iteration": 1932,
+      "val_fit_s": 73.8,
+      "final_fit_s": 87.3
+    },
+    "human+grammar16_s42": {
+      "features": 110,
+      "best_iteration": 2095,
+      "val_fit_s": 95.8,
+      "final_fit_s": 114.5
+    },
+    "human_s7": {
+      "features": 94,
+      "best_iteration": 1582,
+      "val_fit_s": 71.4,
+      "final_fit_s": 84.5
+    },
+    "grammar32_s7": {
+      "features": 62,
+      "best_iteration": 1403,
+      "val_fit_s": 56.9,
+      "final_fit_s": 65.0
+    },
+    "human+grammar16_s7": {
+      "features": 110,
+      "best_iteration": 2036,
+      "val_fit_s": 93.8,
+      "final_fit_s": 111.9
+    },
+    "human_s13": {
+      "features": 94,
+      "best_iteration": 1697,
+      "val_fit_s": 76.5,
+      "final_fit_s": 90.1
+    },
+    "grammar32_s13": {
+      "features": 62,
+      "best_iteration": 1724,
+      "val_fit_s": 67.5,
+      "final_fit_s": 78.7
+    },
+    "human+grammar16_s13": {
+      "features": 110,
+      "best_iteration": 1483,
+      "val_fit_s": 72.5,
+      "final_fit_s": 85.2
+    },
+    "human_s101": {
+      "features": 94,
+      "best_iteration": 1769,
+      "val_fit_s": 79.0,
+      "final_fit_s": 93.9
+    },
+    "grammar32_s101": {
+      "features": 62,
+      "best_iteration": 1818,
+      "val_fit_s": 69.8,
+      "final_fit_s": 82.4
+    },
+    "human+grammar16_s101": {
+      "features": 110,
+      "best_iteration": 2160,
+      "val_fit_s": 99.4,
+      "final_fit_s": 118.1
+    },
+    "human_s2024": {
+      "features": 94,
+      "best_iteration": 1995,
+      "val_fit_s": 87.2,
+      "final_fit_s": 104.4
+    },
+    "grammar32_s2024": {
+      "features": 62,
+      "best_iteration": 1773,
+      "val_fit_s": 68.8,
+      "final_fit_s": 80.7
+    },
+    "human+grammar16_s2024": {
+      "features": 110,
+      "best_iteration": 2224,
+      "val_fit_s": 100.5,
+      "final_fit_s": 120.7
+    }
+  },
+  "task_type": "GPU",
+  "polars": "1.38.1",
+  "catboost": "1.2.10",
+  "torch": "2.11.0+cu128",
+  "gpu": "GPU 0: Tesla T4 (UUID: GPU-a486c7b4-1ea2-44da-38c2-3de8745f6217)\nGPU 1: Tesla T4 (UUID: GPU-1d8e6806-adb6-0140-40a9-4009e2bfdd0d)"
+}

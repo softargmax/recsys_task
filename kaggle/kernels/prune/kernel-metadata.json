@@ -1,0 +1,19 @@
+{
+  "id": "rabochi1024/yambda-grammar-prune",
+  "title": "yambda-grammar-prune",
+  "code_file": "yambda_grammar_prune.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "rabochi1024/yambda-50m-flat"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "rabochi1024/yambda-features",
+    "rabochi1024/yambda-grammar-seeds"
+  ],
+  "machine_shape": "NvidiaTeslaT4"
+}

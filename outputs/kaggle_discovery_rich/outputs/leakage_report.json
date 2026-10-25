@@ -1,0 +1,26 @@
+{
+  "cut_ts": 25136000,
+  "objects_compared": 12640,
+  "features_with_mismatch": {},
+  "canary_mismatches": {
+    "canary_next_ratio": 214,
+    "canary_gap_to_prev": 0
+  },
+  "passed": true,
+  "single_feature_auc_top10": {
+    "b_u_ratio_r10": 0.8745815113474039,
+    "b_u_ratio_r3": 0.8692790005603203,
+    "c_prev10_lp_rate": 0.8685593127703654,
+    "u_rec_lp_rate_1h": 0.8633886727812793,
+    "b_u_rec_lp_r10": 0.8533124911085763,
+    "u_rec_lp_rate_1d": 0.8526890379525511,
+    "c_session_lp_rate": 0.8515336594079009,
+    "b_u_rec_skip_r10": 0.8505554777347184,
+    "c_prev3_lp_rate": 0.8496247457752668,
+    "b_u_rec_lp_r3": 0.8468314806102915
+  },
+  "canary_auc": {
+    "canary_next_ratio": 0.8239687094390983,
+    "canary_gap_to_prev": 0.8107676475626796
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "title": "yambda-50m-flat",
+  "id": "rabochi1024/yambda-50m-flat",
+  "licenses": [{"name": "Apache 2.0"}],
+  "subtitle": "Yandex Yambda-50M multi_event flat file plus artist and album mappings",
+  "description": "Copy of yandex/yambda (Hugging Face, Apache 2.0): flat/50m/multi_event.parquet, artist_item_mapping.parquet, album_item_mapping.parquet."
+}

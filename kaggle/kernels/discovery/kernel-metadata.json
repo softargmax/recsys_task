@@ -1,0 +1,16 @@
+{
+  "id": "rabochi1024/yambda-feature-discovery",
+  "title": "yambda-feature-discovery",
+  "code_file": "yambda_feature_discovery.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "rabochi1024/yambda-50m-flat"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

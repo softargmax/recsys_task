@@ -1,0 +1,1314 @@
+[
+  {
+    "feature": 0,
+    "kind": "count",
+    "text": "count: rec_lp + org_lp + novel_lp over 1.00 same track, kernel 1.00 last track",
+    "relation": {
+      "u": 0.0,
+      "ui": 1.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 1.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.7879999876022339,
+      "rec_skip": 0.13050000369548798,
+      "org_lp": 0.7271999716758728,
+      "org_skip": 0.3000999987125397,
+      "novel_lp": 0.5439000129699707,
+      "novel_skip": 0.04039999842643738
+    },
+    "denominator": {
+      "rec_lp": 0.8980000019073486,
+      "rec_skip": 0.4722000062465668,
+      "org_lp": 0.965499997138977,
+      "org_skip": 0.7792999744415283,
+      "novel_lp": 0.7854999899864197,
+      "novel_skip": 0.4339999854564667
+    }
+  },
+  {
+    "feature": 1,
+    "kind": "count",
+    "text": "count: nothing over 1.00 same album, kernel 1.00 decay 1h",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 1.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 1.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.4706000089645386,
+      "rec_skip": 0.008899999782443047,
+      "org_lp": 0.04450000077486038,
+      "org_skip": 0.015399999916553497,
+      "novel_lp": 0.0035000001080334187,
+      "novel_skip": 0.020500000566244125
+    },
+    "denominator": {
+      "rec_lp": 0.7160999774932861,
+      "rec_skip": 0.8277999758720398,
+      "org_lp": 0.6800000071525574,
+      "org_skip": 0.7692000269889832,
+      "novel_lp": 0.16339999437332153,
+      "novel_skip": 0.6082000136375427
+    }
+  },
+  {
+    "feature": 2,
+    "kind": "count",
+    "text": "count: rec_lp + novel_skip over 1.00 same artist, kernel 1.00 decay 6h",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 1.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 1.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.90829998254776,
+      "rec_skip": 0.17900000512599945,
+      "org_lp": 0.007400000002235174,
+      "org_skip": 0.004999999888241291,
+      "novel_lp": 0.0032999999821186066,
+      "novel_skip": 0.9689000248908997
+    },
+    "denominator": {
+      "rec_lp": 0.9445000290870667,
+      "rec_skip": 0.58160001039505,
+      "org_lp": 0.8240000009536743,
+      "org_skip": 0.4611999988555908,
+      "novel_lp": 0.6498000025749207,
+      "novel_skip": 0.9799000024795532
+    }
+  },
+  {
+    "feature": 3,
+    "kind": "count",
+    "text": "count: org_skip + novel_lp over 1.00 same album, kernel 1.00 last 10 tracks",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 1.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 1.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.40869998931884766,
+      "rec_skip": 0.003700000001117587,
+      "org_lp": 0.4862000048160553,
+      "org_skip": 0.5228999853134155,
+      "novel_lp": 0.8885999917984009,
+      "novel_skip": 0.0038999998942017555
+    },
+    "denominator": {
+      "rec_lp": 0.4799000024795532,
+      "rec_skip": 0.7095999717712402,
+      "org_lp": 0.6100999712944031,
+      "org_skip": 0.6940000057220459,
+      "novel_lp": 0.9228000044822693,
+      "novel_skip": 0.21310000121593475
+    }
+  },
+  {
+    "feature": 4,
+    "kind": "count",
+    "text": "count: rec_skip + novel_skip over 1.00 same artist, kernel 1.00 all history",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 1.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 1.0
+    },
+    "numerator": {
+      "rec_lp": 0.0003000000142492354,
+      "rec_skip": 0.992900013923645,
+      "org_lp": 0.00019999999494757503,
+      "org_skip": 0.08429999649524689,
+      "novel_lp": 0.0024999999441206455,
+      "novel_skip": 0.9936000108718872
+    },
+    "denominator": {
+      "rec_lp": 0.5008000135421753,
+      "rec_skip": 0.9994000196456909,
+      "org_lp": 0.2727000117301941,
+      "org_skip": 0.2962999939918518,
+      "novel_lp": 0.8144000172615051,
+      "novel_skip": 0.9950000047683716
+    }
+  },
+  {
+    "feature": 5,
+    "kind": "count",
+    "text": "count: rec_lp + org_lp + novel_lp over 1.00 cf-similar tracks, kernel 1.00 decay 7d",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 1.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 1.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.996399998664856,
+      "rec_skip": 0.005100000184029341,
+      "org_lp": 0.5151000022888184,
+      "org_skip": 0.06469999998807907,
+      "novel_lp": 0.9818000197410583,
+      "novel_skip": 0.0052999998442828655
+    },
+    "denominator": {
+      "rec_lp": 0.9968000054359436,
+      "rec_skip": 0.41179999709129333,
+      "org_lp": 0.7469000220298767,
+      "org_skip": 0.16369999945163727,
+      "novel_lp": 0.9937999844551086,
+      "novel_skip": 0.7615000009536743
+    }
+  },
+  {
+    "feature": 6,
+    "kind": "count",
+    "text": "count: rec_lp + org_lp over 1.00 cf-similar tracks, kernel 1.00 last track",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 1.0
+    },
+    "kernel": {
+      "r1": 1.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.5837000012397766,
+      "rec_skip": 0.06989999860525131,
+      "org_lp": 0.9973999857902527,
+      "org_skip": 0.012900000438094139,
+      "novel_lp": 0.006000000052154064,
+      "novel_skip": 0.001500000013038516
+    },
+    "denominator": {
+      "rec_lp": 0.8019999861717224,
+      "rec_skip": 0.7281000018119812,
+      "org_lp": 0.9980000257492065,
+      "org_skip": 0.7990000247955322,
+      "novel_lp": 0.60589998960495,
+      "novel_skip": 0.1451999992132187
+    }
+  },
+  {
+    "feature": 7,
+    "kind": "count",
+    "text": "count: rec_lp + novel_lp over 1.00 any track, kernel 1.00 last 10 tracks",
+    "relation": {
+      "u": 0.9998999834060669,
+      "ui": 9.999999747378752e-05,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 1.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.9955000281333923,
+      "rec_skip": 0.0568000003695488,
+      "org_lp": 0.1931000053882599,
+      "org_skip": 0.004399999976158142,
+      "novel_lp": 0.8939999938011169,
+      "novel_skip": 0.14830000698566437
+    },
+    "denominator": {
+      "rec_lp": 0.998199999332428,
+      "rec_skip": 0.38429999351501465,
+      "org_lp": 0.4350000023841858,
+      "org_skip": 0.25440001487731934,
+      "novel_lp": 0.9157000184059143,
+      "novel_skip": 0.578000009059906
+    }
+  },
+  {
+    "feature": 8,
+    "kind": "count",
+    "text": "count: nothing over 1.00 same artist, kernel 1.00 decay 6h",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 1.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 1.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.2964000105857849,
+      "rec_skip": 0.0013000000035390258,
+      "org_lp": 0.21660000085830688,
+      "org_skip": 0.17229999601840973,
+      "novel_lp": 0.05689999833703041,
+      "novel_skip": 0.07940000295639038
+    },
+    "denominator": {
+      "rec_lp": 0.7423999905586243,
+      "rec_skip": 0.5759999752044678,
+      "org_lp": 0.8858000040054321,
+      "org_skip": 0.43619999289512634,
+      "novel_lp": 0.1923000067472458,
+      "novel_skip": 0.5489000082015991
+    }
+  },
+  {
+    "feature": 9,
+    "kind": "count",
+    "text": "count: rec_lp + rec_skip + org_skip over 1.00 same track, kernel 1.00 last 10 tracks",
+    "relation": {
+      "u": 0.0,
+      "ui": 1.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 1.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.9218999743461609,
+      "rec_skip": 0.5486999750137329,
+      "org_lp": 0.050700001418590546,
+      "org_skip": 0.6500999927520752,
+      "novel_lp": 0.01940000057220459,
+      "novel_skip": 0.026000000536441803
+    },
+    "denominator": {
+      "rec_lp": 0.9632999897003174,
+      "rec_skip": 0.8485000133514404,
+      "org_lp": 0.5006999969482422,
+      "org_skip": 0.8282999992370605,
+      "novel_lp": 0.5397999882698059,
+      "novel_skip": 0.08259999752044678
+    }
+  },
+  {
+    "feature": 10,
+    "kind": "count",
+    "text": "count: rec_lp + org_lp + novel_lp over 1.00 any track, kernel 1.00 decay 90d",
+    "relation": {
+      "u": 0.9998999834060669,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 1.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.9438999891281128,
+      "rec_skip": 0.008899999782443047,
+      "org_lp": 0.9527999758720398,
+      "org_skip": 0.01720000058412552,
+      "novel_lp": 0.9959999918937683,
+      "novel_skip": 0.37770000100135803
+    },
+    "denominator": {
+      "rec_lp": 0.9645000100135803,
+      "rec_skip": 0.7013999819755554,
+      "org_lp": 0.9837999939918518,
+      "org_skip": 0.5289999842643738,
+      "novel_lp": 0.9969000220298767,
+      "novel_skip": 0.7603999972343445
+    }
+  },
+  {
+    "feature": 11,
+    "kind": "count",
+    "text": "count: rec_lp + org_lp over 1.00 same track, kernel 1.00 decay 30d",
+    "relation": {
+      "u": 0.0,
+      "ui": 1.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 1.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.8073999881744385,
+      "rec_skip": 0.002199999988079071,
+      "org_lp": 0.7908999919891357,
+      "org_skip": 0.0005000000237487257,
+      "novel_lp": 0.0006000000284984708,
+      "novel_skip": 0.01679999940097332
+    },
+    "denominator": {
+      "rec_lp": 0.9114999771118164,
+      "rec_skip": 0.21449999511241913,
+      "org_lp": 0.8950999975204468,
+      "org_skip": 0.8133000135421753,
+      "novel_lp": 0.7114999890327454,
+      "novel_skip": 0.7163000106811523
+    }
+  },
+  {
+    "feature": 12,
+    "kind": "count",
+    "text": "count: rec_skip + novel_skip over 1.00 any track, kernel 1.00 all history",
+    "relation": {
+      "u": 0.9998999834060669,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 9.999999747378752e-05,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.9998999834060669
+    },
+    "numerator": {
+      "rec_lp": 0.020500000566244125,
+      "rec_skip": 0.9904999732971191,
+      "org_lp": 0.006099999882280827,
+      "org_skip": 0.4690000116825104,
+      "novel_lp": 0.004000000189989805,
+      "novel_skip": 0.9833999872207642
+    },
+    "denominator": {
+      "rec_lp": 0.682200014591217,
+      "rec_skip": 0.9939000010490417,
+      "org_lp": 0.7190999984741211,
+      "org_skip": 0.8651999831199646,
+      "novel_lp": 0.6121000051498413,
+      "novel_skip": 0.9843999743461609
+    }
+  },
+  {
+    "feature": 13,
+    "kind": "count",
+    "text": "count: rec_lp over 1.00 same artist, kernel 1.00 decay 7d",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 1.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 1.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.9915000200271606,
+      "rec_skip": 0.0020000000949949026,
+      "org_lp": 0.0010999999940395355,
+      "org_skip": 0.004699999932199717,
+      "novel_lp": 0.11309999972581863,
+      "novel_skip": 0.006300000008195639
+    },
+    "denominator": {
+      "rec_lp": 0.9959999918937683,
+      "rec_skip": 0.16769999265670776,
+      "org_lp": 0.48669999837875366,
+      "org_skip": 0.36890000104904175,
+      "novel_lp": 0.6873000264167786,
+      "novel_skip": 0.28600001335144043
+    }
+  },
+  {
+    "feature": 14,
+    "kind": "count",
+    "text": "count: rec_skip + novel_skip over 1.00 cf-similar tracks, kernel 1.00 all history",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 1.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 1.0
+    },
+    "numerator": {
+      "rec_lp": 0.0006000000284984708,
+      "rec_skip": 0.992900013923645,
+      "org_lp": 0.0031999999191612005,
+      "org_skip": 0.13680000603199005,
+      "novel_lp": 0.0015999999595806003,
+      "novel_skip": 0.6837000250816345
+    },
+    "denominator": {
+      "rec_lp": 0.6941999793052673,
+      "rec_skip": 0.9957000017166138,
+      "org_lp": 0.6434999704360962,
+      "org_skip": 0.7041000127792358,
+      "novel_lp": 0.23690000176429749,
+      "novel_skip": 0.8170999884605408
+    }
+  },
+  {
+    "feature": 15,
+    "kind": "count",
+    "text": "count: rec_lp + novel_lp + novel_skip over 1.00 cf-similar tracks, kernel 1.00 decay 6h",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.9998999834060669
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 1.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.5496000051498413,
+      "rec_skip": 0.16859999299049377,
+      "org_lp": 0.3991999924182892,
+      "org_skip": 0.10620000213384628,
+      "novel_lp": 0.9284999966621399,
+      "novel_skip": 0.9555000066757202
+    },
+    "denominator": {
+      "rec_lp": 0.697700023651123,
+      "rec_skip": 0.6923999786376953,
+      "org_lp": 0.6352999806404114,
+      "org_skip": 0.4018999934196472,
+      "novel_lp": 0.9771000146865845,
+      "novel_skip": 0.9667999744415283
+    }
+  },
+  {
+    "feature": 16,
+    "kind": "rate",
+    "text": "rate: (rec_lp + rec_skip + org_lp + org_skip + novel_lp) / (rec_lp + rec_skip + org_lp + org_skip + novel_lp + novel_skip) over 1.00 cf-similar tracks, kernel 1.00 decay 6h",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.9998999834060669
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 1.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.5354999899864197,
+      "rec_skip": 0.9872000217437744,
+      "org_lp": 0.5454999804496765,
+      "org_skip": 0.7157999873161316,
+      "novel_lp": 0.8727999925613403,
+      "novel_skip": 0.1216999962925911
+    },
+    "denominator": {
+      "rec_lp": 0.6877999901771545,
+      "rec_skip": 0.9886000156402588,
+      "org_lp": 0.9225999712944031,
+      "org_skip": 0.838100016117096,
+      "novel_lp": 0.9891999959945679,
+      "novel_skip": 0.9646000266075134
+    }
+  },
+  {
+    "feature": 17,
+    "kind": "rate",
+    "text": "rate: (rec_lp + rec_skip + org_lp + org_skip + novel_lp + novel_skip) / (rec_lp + rec_skip + org_lp + org_skip + novel_lp + novel_skip) over 1.00 same track, kernel 1.00 last 3 tracks",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.9998999834060669,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 1.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.6384999752044678,
+      "rec_skip": 0.8690000176429749,
+      "org_lp": 0.8650000095367432,
+      "org_skip": 0.9329000115394592,
+      "novel_lp": 0.8324999809265137,
+      "novel_skip": 0.8396999835968018
+    },
+    "denominator": {
+      "rec_lp": 0.6812999844551086,
+      "rec_skip": 0.9894999861717224,
+      "org_lp": 0.8720999956130981,
+      "org_skip": 0.9401000142097473,
+      "novel_lp": 0.842199981212616,
+      "novel_skip": 0.8579000234603882
+    }
+  },
+  {
+    "feature": 18,
+    "kind": "rate",
+    "text": "rate: (rec_lp + org_lp) / (rec_lp + org_lp) over 1.00 any track, kernel 1.00 last 3 tracks",
+    "relation": {
+      "u": 0.9998000264167786,
+      "ui": 9.999999747378752e-05,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 9.999999747378752e-05,
+      "r3": 0.9998999834060669,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.9855999946594238,
+      "rec_skip": 0.008999999612569809,
+      "org_lp": 0.5037000179290771,
+      "org_skip": 0.12960000336170197,
+      "novel_lp": 0.035100001841783524,
+      "novel_skip": 0.008700000122189522
+    },
+    "denominator": {
+      "rec_lp": 0.9934999942779541,
+      "rec_skip": 0.4505000114440918,
+      "org_lp": 0.859000027179718,
+      "org_skip": 0.3456999957561493,
+      "novel_lp": 0.1891999989748001,
+      "novel_skip": 0.14990000426769257
+    }
+  },
+  {
+    "feature": 19,
+    "kind": "rate",
+    "text": "rate: (rec_skip) / (rec_skip + org_lp + org_skip + novel_lp + novel_skip) over 1.00 any track, kernel 1.00 last 3 tracks",
+    "relation": {
+      "u": 0.9998999834060669,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 9.999999747378752e-05,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.9998999834060669,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.027300000190734863,
+      "rec_skip": 0.9811000227928162,
+      "org_lp": 0.35740000009536743,
+      "org_skip": 0.38109999895095825,
+      "novel_lp": 0.09070000052452087,
+      "novel_skip": 0.13349999487400055
+    },
+    "denominator": {
+      "rec_lp": 0.4359999895095825,
+      "rec_skip": 0.9948999881744385,
+      "org_lp": 0.9779000282287598,
+      "org_skip": 0.6389999985694885,
+      "novel_lp": 0.7016000151634216,
+      "novel_skip": 0.9621999859809875
+    }
+  },
+  {
+    "feature": 20,
+    "kind": "rate",
+    "text": "rate: (rec_lp + org_lp + org_skip + novel_lp) / (rec_lp + rec_skip + org_lp + org_skip + novel_lp + novel_skip) over 1.00 any track, kernel 1.00 last track",
+    "relation": {
+      "u": 0.9998999834060669,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.9998999834060669,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.9381999969482422,
+      "rec_skip": 0.008200000040233135,
+      "org_lp": 0.869700014591217,
+      "org_skip": 0.6787999868392944,
+      "novel_lp": 0.6327999830245972,
+      "novel_skip": 0.2134999930858612
+    },
+    "denominator": {
+      "rec_lp": 0.9775999784469604,
+      "rec_skip": 0.9634000062942505,
+      "org_lp": 0.890500009059906,
+      "org_skip": 0.8543000221252441,
+      "novel_lp": 0.9243000149726868,
+      "novel_skip": 0.9824000000953674
+    }
+  },
+  {
+    "feature": 21,
+    "kind": "rate",
+    "text": "rate: (rec_skip + novel_skip) / (rec_lp + rec_skip + org_lp + novel_lp + novel_skip) over 1.00 any track, kernel 1.00 last 10 tracks",
+    "relation": {
+      "u": 0.9998000264167786,
+      "ui": 0.0,
+      "ua": 9.999999747378752e-05,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.9998999834060669,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.10859999805688858,
+      "rec_skip": 0.9937999844551086,
+      "org_lp": 0.05939999967813492,
+      "org_skip": 0.054499998688697815,
+      "novel_lp": 0.4544000029563904,
+      "novel_skip": 0.6539999842643738
+    },
+    "denominator": {
+      "rec_lp": 0.6071000099182129,
+      "rec_skip": 0.9954000115394592,
+      "org_lp": 0.7285000085830688,
+      "org_skip": 0.2768999934196472,
+      "novel_lp": 0.8605999946594238,
+      "novel_skip": 0.8604000210762024
+    }
+  },
+  {
+    "feature": 22,
+    "kind": "rate",
+    "text": "rate: (rec_skip + org_skip) / (rec_lp + rec_skip + org_skip + novel_lp) over 1.00 any track, kernel 1.00 decay 1h",
+    "relation": {
+      "u": 0.9998999834060669,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 1.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.250900000333786,
+      "rec_skip": 0.977400004863739,
+      "org_lp": 0.04830000177025795,
+      "org_skip": 0.5340999960899353,
+      "novel_lp": 0.3465000092983246,
+      "novel_skip": 0.1354999989271164
+    },
+    "denominator": {
+      "rec_lp": 0.9677000045776367,
+      "rec_skip": 0.9782999753952026,
+      "org_lp": 0.1941000074148178,
+      "org_skip": 0.5389000177383423,
+      "novel_lp": 0.9836000204086304,
+      "novel_skip": 0.14300000667572021
+    }
+  },
+  {
+    "feature": 23,
+    "kind": "rate",
+    "text": "rate: (novel_lp) / (rec_lp + rec_skip + org_lp + org_skip + novel_lp + novel_skip) over 1.00 cf-similar tracks, kernel 1.00 decay 3d",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 1.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 1.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.3118000030517578,
+      "rec_skip": 0.027799999341368675,
+      "org_lp": 0.33169999718666077,
+      "org_skip": 0.02969999983906746,
+      "novel_lp": 0.9442999958992004,
+      "novel_skip": 0.003100000089034438
+    },
+    "denominator": {
+      "rec_lp": 0.552299976348877,
+      "rec_skip": 0.9776999950408936,
+      "org_lp": 0.7184000015258789,
+      "org_skip": 0.9415000081062317,
+      "novel_lp": 0.9502999782562256,
+      "novel_skip": 0.9858999848365784
+    }
+  },
+  {
+    "feature": 24,
+    "kind": "rate",
+    "text": "rate: (rec_lp + org_lp) / (rec_lp + rec_skip + org_lp + org_skip) over 1.00 same track, kernel 1.00 all history",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.9997000098228455,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.00019999999494757503
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 1.0
+    },
+    "numerator": {
+      "rec_lp": 0.9837999939918518,
+      "rec_skip": 0.11259999871253967,
+      "org_lp": 0.9010999798774719,
+      "org_skip": 0.20509999990463257,
+      "novel_lp": 0.13860000669956207,
+      "novel_skip": 0.4837999939918518
+    },
+    "denominator": {
+      "rec_lp": 0.9850999712944031,
+      "rec_skip": 0.9890000224113464,
+      "org_lp": 0.9958999752998352,
+      "org_skip": 0.9039000272750854,
+      "novel_lp": 0.2786000072956085,
+      "novel_skip": 0.4952999949455261
+    }
+  },
+  {
+    "feature": 25,
+    "kind": "rate",
+    "text": "rate: (org_lp) / (rec_skip + org_lp + org_skip + novel_lp + novel_skip) over 1.00 same artist, kernel 1.00 decay 3d",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 1.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 1.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.14380000531673431,
+      "rec_skip": 0.01590000092983246,
+      "org_lp": 0.5587000250816345,
+      "org_skip": 0.24070000648498535,
+      "novel_lp": 0.048900000751018524,
+      "novel_skip": 0.021700000390410423
+    },
+    "denominator": {
+      "rec_lp": 0.21310000121593475,
+      "rec_skip": 0.9416000247001648,
+      "org_lp": 0.8126999735832214,
+      "org_skip": 0.9322999715805054,
+      "novel_lp": 0.9864000082015991,
+      "novel_skip": 0.9710000157356262
+    }
+  },
+  {
+    "feature": 26,
+    "kind": "rate",
+    "text": "rate: (rec_lp + novel_lp) / (rec_lp + rec_skip + novel_lp + novel_skip) over 1.00 any track, kernel 1.00 decay 30d",
+    "relation": {
+      "u": 1.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 1.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.6417999863624573,
+      "rec_skip": 0.3249000012874603,
+      "org_lp": 0.020999999716877937,
+      "org_skip": 0.011300000362098217,
+      "novel_lp": 0.9997000098228455,
+      "novel_skip": 0.4438999891281128
+    },
+    "denominator": {
+      "rec_lp": 0.9968000054359436,
+      "rec_skip": 0.9575999975204468,
+      "org_lp": 0.09600000083446503,
+      "org_skip": 0.035999998450279236,
+      "novel_lp": 0.9997000098228455,
+      "novel_skip": 0.993399977684021
+    }
+  },
+  {
+    "feature": 27,
+    "kind": "rate",
+    "text": "rate: (rec_lp) / (rec_lp + rec_skip) over 1.00 cf-similar tracks, kernel 1.00 decay 1h",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.9998999834060669
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 1.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.7850000262260437,
+      "rec_skip": 0.007699999958276749,
+      "org_lp": 0.09440000355243683,
+      "org_skip": 0.018799999728798866,
+      "novel_lp": 0.2646999955177307,
+      "novel_skip": 0.15680000185966492
+    },
+    "denominator": {
+      "rec_lp": 0.9513999819755554,
+      "rec_skip": 0.9923999905586243,
+      "org_lp": 0.14650000631809235,
+      "org_skip": 0.3610999882221222,
+      "novel_lp": 0.4462999999523163,
+      "novel_skip": 0.16249999403953552
+    }
+  },
+  {
+    "feature": 28,
+    "kind": "rate",
+    "text": "rate: (rec_lp) / (rec_lp + rec_skip + org_lp + org_skip + novel_skip) over 1.00 any track, kernel 1.00 last track",
+    "relation": {
+      "u": 0.9998999834060669,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 9.999999747378752e-05,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.9998999834060669,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.8679999709129333,
+      "rec_skip": 0.22089999914169312,
+      "org_lp": 0.048900000751018524,
+      "org_skip": 0.058400001376867294,
+      "novel_lp": 0.11169999837875366,
+      "novel_skip": 0.48240000009536743
+    },
+    "denominator": {
+      "rec_lp": 0.8883000016212463,
+      "rec_skip": 0.8980000019073486,
+      "org_lp": 0.9828000068664551,
+      "org_skip": 0.951200008392334,
+      "novel_lp": 0.16130000352859497,
+      "novel_skip": 0.8819000124931335
+    }
+  },
+  {
+    "feature": 29,
+    "kind": "rate",
+    "text": "rate: (rec_skip + org_skip) / (rec_lp + rec_skip + org_lp + org_skip + novel_lp) over 1.00 same album, kernel 1.00 decay 7d",
+    "relation": {
+      "u": 0.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 1.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 1.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.3856000006198883,
+      "rec_skip": 0.9754999876022339,
+      "org_lp": 0.23199999332427979,
+      "org_skip": 0.7354000210762024,
+      "novel_lp": 0.15000000596046448,
+      "novel_skip": 0.14959999918937683
+    },
+    "denominator": {
+      "rec_lp": 0.9876999855041504,
+      "rec_skip": 0.9782000184059143,
+      "org_lp": 0.5555999875068665,
+      "org_skip": 0.7371000051498413,
+      "novel_lp": 0.7749000191688538,
+      "novel_skip": 0.482699990272522
+    }
+  },
+  {
+    "feature": 30,
+    "kind": "rate",
+    "text": "rate: (nothing) / (rec_skip + org_lp + org_skip + novel_skip) over 1.00 any track, kernel 1.00 decay 30d",
+    "relation": {
+      "u": 1.0,
+      "ui": 0.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 0.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 1.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.02879999950528145,
+      "rec_skip": 0.006899999920278788,
+      "org_lp": 0.4000999927520752,
+      "org_skip": 0.4595000147819519,
+      "novel_lp": 0.08399999886751175,
+      "novel_skip": 0.006099999882280827
+    },
+    "denominator": {
+      "rec_lp": 0.05790000036358833,
+      "rec_skip": 0.9976999759674072,
+      "org_lp": 0.8334000110626221,
+      "org_skip": 0.9911999702453613,
+      "novel_lp": 0.2094999998807907,
+      "novel_skip": 0.9976999759674072
+    }
+  },
+  {
+    "feature": 31,
+    "kind": "rate",
+    "text": "rate: (rec_lp + novel_lp) / (rec_lp + rec_skip + org_lp + org_skip + novel_lp + novel_skip) over 1.00 same track, kernel 1.00 last 3 tracks",
+    "relation": {
+      "u": 0.0,
+      "ui": 1.0,
+      "ua": 0.0,
+      "ual": 0.0,
+      "cf": 0.0
+    },
+    "kernel": {
+      "r1": 0.0,
+      "r3": 1.0,
+      "r10": 0.0,
+      "t1h": 0.0,
+      "t6h": 0.0,
+      "t1d": 0.0,
+      "t3d": 0.0,
+      "t7d": 0.0,
+      "t30d": 0.0,
+      "t90d": 0.0,
+      "all": 0.0
+    },
+    "numerator": {
+      "rec_lp": 0.875,
+      "rec_skip": 0.10159999877214432,
+      "org_lp": 0.020999999716877937,
+      "org_skip": 0.15549999475479126,
+      "novel_lp": 0.8446999788284302,
+      "novel_skip": 0.35420000553131104
+    },
+    "denominator": {
+      "rec_lp": 0.8924999833106995,
+      "rec_skip": 0.6211000084877014,
+      "org_lp": 0.9700999855995178,
+      "org_skip": 0.913100004196167,
+      "novel_lp": 0.8500999808311462,
+      "novel_skip": 0.9416000247001648
+    }
+  }
+]

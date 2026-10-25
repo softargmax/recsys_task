@@ -1,0 +1,86 @@
+{
+  "timings": {
+    "train_eval_s": 5593.3
+  },
+  "feature_code_hash": "ca56e4c2aa41e927",
+  "cached_features": "/kaggle/input/yambda-features/features",
+  "records": {
+    "human_s42": {
+      "features": 94,
+      "best_iteration": 1270,
+      "val_fit_s": 59.0,
+      "final_fit_s": 67.8
+    },
+    "g32_dense_s42": {
+      "features": 62,
+      "best_iteration": 1952,
+      "val_fit_s": 74.8,
+      "final_fit_s": 89.4
+    },
+    "g32_hard_s42": {
+      "features": 62,
+      "best_iteration": 1698,
+      "val_fit_s": 66.6,
+      "final_fit_s": 78.0
+    },
+    "g32_frozen_s42": {
+      "features": 62,
+      "best_iteration": 1612,
+      "val_fit_s": 63.1,
+      "final_fit_s": 73.3
+    },
+    "human_s7": {
+      "features": 94,
+      "best_iteration": 1647,
+      "val_fit_s": 74.4,
+      "final_fit_s": 88.6
+    },
+    "g32_dense_s7": {
+      "features": 62,
+      "best_iteration": 1828,
+      "val_fit_s": 70.7,
+      "final_fit_s": 84.0
+    },
+    "g32_hard_s7": {
+      "features": 62,
+      "best_iteration": 1828,
+      "val_fit_s": 70.4,
+      "final_fit_s": 84.0
+    },
+    "g32_frozen_s7": {
+      "features": 62,
+      "best_iteration": 1959,
+      "val_fit_s": 75.4,
+      "final_fit_s": 89.7
+    },
+    "human_s13": {
+      "features": 94,
+      "best_iteration": 1544,
+      "val_fit_s": 71.3,
+      "final_fit_s": 83.3
+    },
+    "g32_dense_s13": {
+      "features": 62,
+      "best_iteration": 1739,
+      "val_fit_s": 68.1,
+      "final_fit_s": 80.3
+    },
+    "g32_hard_s13": {
+      "features": 62,
+      "best_iteration": 1821,
+      "val_fit_s": 69.8,
+      "final_fit_s": 82.9
+    },
+    "g32_frozen_s13": {
+      "features": 62,
+      "best_iteration": 1512,
+      "val_fit_s": 59.6,
+      "final_fit_s": 69.0
+    }
+  },
+  "task_type": "GPU",
+  "polars": "1.38.1",
+  "catboost": "1.2.10",
+  "torch": "2.11.0+cu128",
+  "gpu": "GPU 0: Tesla T4 (UUID: GPU-dc705365-2d5c-93a6-d244-136718bbcdad)\nGPU 1: Tesla T4 (UUID: GPU-5d8b8c0b-26c0-77dc-f9d4-9de0cd94c400)"
+}

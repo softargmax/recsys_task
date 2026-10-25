@@ -1,0 +1,146 @@
+{
+  "timings": {
+    "train_eval_s": 5558.5
+  },
+  "feature_code_hash": "ca56e4c2aa41e927",
+  "cached_features": "/kaggle/input/notebooks/rabochi1024/yambda-features/features",
+  "records": {
+    "human_s42": {
+      "features": 94,
+      "best_iteration": 1701,
+      "val_fit_s": 73.4,
+      "final_fit_s": 88.5
+    },
+    "g32_rich_s42": {
+      "features": 62,
+      "best_iteration": 1766,
+      "val_fit_s": 67.1,
+      "final_fit_s": 79.1
+    },
+    "g32_base_s42": {
+      "features": 62,
+      "best_iteration": 1820,
+      "val_fit_s": 68.5,
+      "final_fit_s": 80.8
+    },
+    "g32_rich-ratio_s42": {
+      "features": 62,
+      "best_iteration": 1651,
+      "val_fit_s": 63.4,
+      "final_fit_s": 73.9
+    },
+    "g32_base+ratio_s42": {
+      "features": 62,
+      "best_iteration": 1909,
+      "val_fit_s": 71.3,
+      "final_fit_s": 84.7
+    },
+    "g32_rich-novel_s42": {
+      "features": 62,
+      "best_iteration": 1946,
+      "val_fit_s": 72.6,
+      "final_fit_s": 86.2
+    },
+    "g32_base+novel_s42": {
+      "features": 62,
+      "best_iteration": 1496,
+      "val_fit_s": 57.8,
+      "final_fit_s": 66.7
+    },
+    "g32_rich-sess_s42": {
+      "features": 62,
+      "best_iteration": 1511,
+      "val_fit_s": 58.8,
+      "final_fit_s": 68.2
+    },
+    "g32_base+sess_s42": {
+      "features": 62,
+      "best_iteration": 1916,
+      "val_fit_s": 71.0,
+      "final_fit_s": 84.4
+    },
+    "g32_rich-recency_s42": {
+      "features": 62,
+      "best_iteration": 1910,
+      "val_fit_s": 70.9,
+      "final_fit_s": 84.7
+    },
+    "g32_base+recency_s42": {
+      "features": 62,
+      "best_iteration": 1494,
+      "val_fit_s": 57.8,
+      "final_fit_s": 66.4
+    },
+    "human_s7": {
+      "features": 94,
+      "best_iteration": 1897,
+      "val_fit_s": 81.1,
+      "final_fit_s": 97.9
+    },
+    "g32_rich_s7": {
+      "features": 62,
+      "best_iteration": 1461,
+      "val_fit_s": 57.4,
+      "final_fit_s": 66.1
+    },
+    "g32_base_s7": {
+      "features": 62,
+      "best_iteration": 1616,
+      "val_fit_s": 62.1,
+      "final_fit_s": 72.4
+    },
+    "g32_rich-ratio_s7": {
+      "features": 62,
+      "best_iteration": 1674,
+      "val_fit_s": 63.8,
+      "final_fit_s": 75.0
+    },
+    "g32_base+ratio_s7": {
+      "features": 62,
+      "best_iteration": 2015,
+      "val_fit_s": 74.7,
+      "final_fit_s": 89.7
+    },
+    "g32_rich-novel_s7": {
+      "features": 62,
+      "best_iteration": 1987,
+      "val_fit_s": 73.8,
+      "final_fit_s": 88.0
+    },
+    "g32_base+novel_s7": {
+      "features": 62,
+      "best_iteration": 1531,
+      "val_fit_s": 59.5,
+      "final_fit_s": 69.0
+    },
+    "g32_rich-sess_s7": {
+      "features": 62,
+      "best_iteration": 1645,
+      "val_fit_s": 63.3,
+      "final_fit_s": 74.0
+    },
+    "g32_base+sess_s7": {
+      "features": 62,
+      "best_iteration": 1621,
+      "val_fit_s": 62.4,
+      "final_fit_s": 72.8
+    },
+    "g32_rich-recency_s7": {
+      "features": 62,
+      "best_iteration": 1709,
+      "val_fit_s": 65.6,
+      "final_fit_s": 77.2
+    },
+    "g32_base+recency_s7": {
+      "features": 62,
+      "best_iteration": 1673,
+      "val_fit_s": 63.5,
+      "final_fit_s": 74.2
+    }
+  },
+  "task_type": "GPU",
+  "polars": "1.38.1",
+  "catboost": "1.2.10",
+  "torch": "2.11.0+cu128",
+  "gpu": "GPU 0: Tesla T4 (UUID: GPU-518ef07e-a754-daa1-0bc4-07a078de334a)\nGPU 1: Tesla T4 (UUID: GPU-a2cf4a70-1c30-60ec-1f30-8e5f3bcaedd0)"
+}

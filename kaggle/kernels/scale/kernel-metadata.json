@@ -1,0 +1,18 @@
+{
+  "id": "rabochi1024/yambda-grammar-scale",
+  "title": "yambda-grammar-scale",
+  "code_file": "yambda_grammar_scale.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "rabochi1024/yambda-50m-flat"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "rabochi1024/yambda-features"
+  ],
+  "machine_shape": "NvidiaTeslaT4"
+}

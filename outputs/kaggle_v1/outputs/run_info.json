@@ -1,0 +1,18 @@
+{
+  "timings": {
+    "prepare_s": 99.3,
+    "leakage_check_s": 124.7,
+    "features_s": 187.3,
+    "train_eval_s": 631.8
+  },
+  "summary_timings": {
+    "logreg_s": 14.0,
+    "catboost_train_s": 66.7,
+    "catboost_final_train_s": 79.0,
+    "catboost_predict_test_s": 1.4
+  },
+  "task_type": "GPU",
+  "polars": "1.38.1",
+  "catboost": "1.2.10",
+  "gpu": "GPU 0: Tesla T4 (UUID: GPU-d140b035-b92f-fbfc-8a58-9092a14430a7)\nGPU 1: Tesla T4 (UUID: GPU-0bf9969e-fed1-f00a-10ae-075c66ffce98)"
+}
