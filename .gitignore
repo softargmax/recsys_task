@@ -13,3 +13,6 @@ outputs/*/*.log
 outputs/*/outputs/test_predictions.parquet
 outputs/*/outputs/models/
 kaggle/dataset/*.parquet
+outputs/kaggle_v1/
+outputs/kaggle_prune_cpu_s42/
+outputs/kaggle_seeds/
